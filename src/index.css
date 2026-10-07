@@ -1,0 +1,5 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+html.lenis,html.lenis body{height:auto}.lenis.lenis-smooth{scroll-behavior:auto!important}.lenis.lenis-stopped{overflow:hidden}
+@layer base{html{scroll-behavior:smooth}body{@apply bg-white font-sans text-ink antialiased overflow-x-hidden}
+:focus-visible{@apply outline-2 outline-offset-2 outline-brand-2}h1,h2,h3{@apply font-extrabold tracking-tight text-ink}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}}
